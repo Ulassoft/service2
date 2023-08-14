@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4c401ec147103110ec03d437536d43ae" label="Adres" max_length="40" name="x_1053069_uls_adres" type="collection">
+        <element label="isim" max_length="40" name="isim" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="deger1" max_length="40" name="u_deger1_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="deger2" max_length="40" name="u_deger2_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="deger3" max_length="40" name="u_deger3_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="a" sequence="0" value="aa"/>
+                <element inactive_on_update="false" label="b" sequence="1" value="bb"/>
+                <element inactive_on_update="false" label="c" sequence="2" value="cc"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ilce" max_length="40" name="u_ilce_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="il" max_length="40" name="u_il_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="koy" max_length="40" name="u_koy_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+    </element>
+</database>

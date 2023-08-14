@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ULS">d24dd18f47003110ec03d437536d43e8</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>lls</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1053069_uls_ll</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1053069_uls.iller_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 23:10:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a97c6e5b47403110ec03d437536d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lls</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_update_name>sys_app_module_a97c6e5b47403110ec03d437536d43ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 23:10:17</sys_updated_on>
+        <timeline_page/>
+        <title>lls</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ULS">d01c19c347003110ec03d437536d43a0</application>
+        <file_path/>
+        <instance_id>cdd96425dbd8651007072f17d496191c</instance_id>
+        <instance_name>dev147045</instance_name>
+        <name>sys_app_module_a97c6e5b47403110ec03d437536d43ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ULS">d24dd18f47003110ec03d437536d43e8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>lls</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1053069_uls_ll</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1053069_uls.iller_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-20 23:10:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a97c6e5b47403110ec03d437536d43ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>lls</sys_name><sys_overrides/><sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package><sys_policy/><sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope><sys_update_name>sys_app_module_a97c6e5b47403110ec03d437536d43ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-20 23:10:17</sys_updated_on><timeline_page/><title>lls</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-346555519</payload_hash>
+        <record_name>lls</record_name>
+        <reverted_from/>
+        <source>501c19c347003110ec03d437536d43a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 23:10:17</sys_created_on>
+        <sys_id>a17c669b47403110ec03d437536d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189759180a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 23:10:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e97c669b07403110d189f36d45e77b14</update_guid>
+        <update_guid_history>e97c669b07403110d189f36d45e77b14:-346555519</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="lls">2aac6a9b47403110ec03d437536d43f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 23:11:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6be0d76435b84c08b74d2379b8ed2910</sys_id>
+        <sys_metadata>a97c6e5b47403110ec03d437536d43ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lls</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_scope_delete display_value="">530de99aede947bfaa51a248d6534679</sys_scope_delete>
+        <sys_update_name>sys_app_module_a97c6e5b47403110ec03d437536d43ed</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a97c6e5b47403110ec03d437536d43ed">a17c669b47403110ec03d437536d4315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 23:11:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

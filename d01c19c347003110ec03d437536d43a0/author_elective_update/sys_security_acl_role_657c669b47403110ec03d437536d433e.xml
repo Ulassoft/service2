@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 23:10:17</sys_created_on>
+        <sys_id>657c669b47403110ec03d437536d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1053069_uls_ll.x_1053069_uls.iller_user</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_security_acl display_value="x_1053069_uls_ll">ad7c669b47403110ec03d437536d433b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_657c669b47403110ec03d437536d433e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 23:10:17</sys_updated_on>
+        <sys_user_role display_value="x_1053069_uls.iller_user" name="x_1053069_uls.iller_user">464d154f47003110ec03d437536d43d7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ULS">d01c19c347003110ec03d437536d43a0</application>
+        <file_path/>
+        <instance_id>cdd96425dbd8651007072f17d496191c</instance_id>
+        <instance_name>dev147045</instance_name>
+        <name>sys_security_acl_role_657c669b47403110ec03d437536d433e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-20 23:10:17</sys_created_on><sys_id>657c669b47403110ec03d437536d433e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1053069_uls_ll.x_1053069_uls.iller_user</sys_name><sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package><sys_policy/><sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope><sys_security_acl display_value="x_1053069_uls_ll">ad7c669b47403110ec03d437536d433b</sys_security_acl><sys_update_name>sys_security_acl_role_657c669b47403110ec03d437536d433e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-20 23:10:17</sys_updated_on><sys_user_role display_value="x_1053069_uls.iller_user" name="x_1053069_uls.iller_user">464d154f47003110ec03d437536d43d7</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-24829847</payload_hash>
+        <record_name>x_1053069_uls_ll.x_1053069_uls.iller_user</record_name>
+        <reverted_from/>
+        <source>501c19c347003110ec03d437536d43a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 23:10:17</sys_created_on>
+        <sys_id>e57c669b47403110ec03d437536d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189759182910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 23:10:17</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>217c669b59403110f032fead45c19340</update_guid>
+        <update_guid_history>217c669b59403110f032fead45c19340:-24829847</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1053069_uls_ll.x_1053069_uls.iller_user">6eac6a9b47403110ec03d437536d43d3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-20 23:11:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>10cb6c45d5b44f8b8173948e9fbcb4f1</sys_id>
+        <sys_metadata>657c669b47403110ec03d437536d433e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1053069_uls_ll.x_1053069_uls.iller_user</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_parent display_value="">ad7c669b47403110ec03d437536d433b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_scope_delete display_value="">530de99aede947bfaa51a248d6534679</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_657c669b47403110ec03d437536d433e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_657c669b47403110ec03d437536d433e">e57c669b47403110ec03d437536d4340</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-20 23:11:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

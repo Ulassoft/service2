@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-25 08:57:34</sys_created_on>
+        <sys_id>eb399d3447503110ec03d437536d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1053069_uls_ilce.x_1053069_uls.ilce_user</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_security_acl display_value="x_1053069_uls_ilce">27399d3447503110ec03d437536d435b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_eb399d3447503110ec03d437536d435d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-25 08:57:34</sys_updated_on>
+        <sys_user_role display_value="x_1053069_uls.ilce_user" name="x_1053069_uls.ilce_user">973915f047503110ec03d437536d4391</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

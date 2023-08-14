@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1053069_uls.getir</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getir</name>
+        <script><![CDATA[var getir = Class.create();
+getir.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	degerDon: function()
+	{
+		gs.addInfoMessage('deneme');
+		gs.log('*********ulas1*******');
+		
+		//return 'selam';
+	},
+    type: 'getir'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 09:39:14</sys_created_on>
+        <sys_id>a16b6e4d47503110ec03d437536d4334</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>getir</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_update_name>sys_script_include_a16b6e4d47503110ec03d437536d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 11:26:27</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ULS">d01c19c347003110ec03d437536d43a0</application>
+        <file_path/>
+        <instance_id>cdd96425dbd8651007072f17d496191c</instance_id>
+        <instance_name>dev147045</instance_name>
+        <name>sys_script_include_a16b6e4d47503110ec03d437536d4334</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1053069_uls.getir&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getir&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getir = Class.create();
+getir.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	degerDon: function()
+	{
+		gs.addInfoMessage('deneme');
+		gs.log('*********ulas1*******');
+		
+		//return 'selam';
+	},
+    type: 'getir'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-26 09:39:14&lt;/sys_created_on&gt;&lt;sys_id&gt;a16b6e4d47503110ec03d437536d4334&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;getir&lt;/sys_name&gt;&lt;sys_package display_value="ULS" source="x_1053069_uls"&gt;d01c19c347003110ec03d437536d43a0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ULS"&gt;d01c19c347003110ec03d437536d43a0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a16b6e4d47503110ec03d437536d4334&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-26 11:26:27&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-82385773</payload_hash>
+        <record_name>getir</record_name>
+        <reverted_from/>
+        <source>501c19c347003110ec03d437536d43a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 11:26:27</sys_created_on>
+        <sys_id>4ae443c547d03110ec03d437536d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18991f349a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 11:26:27</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>82e443c5b1d031106867f8809816e992</update_guid>
+        <update_guid_history>82e443c5b1d031106867f8809816e992:-82385773,00638705b1d03110b21b0e259683098e:1827853152,5e53cf0500d03110747c3c32484b8dbc:-82385773,d7234b4586d03110e05040388e1f6f12:-1882372478,2712cf494b903110819d0100fc40ebdd:1902810798,3dc143052ad031100ae1b1678a858b91:-63561568,5873fe811790311037b6c87de978f4c8:-1005747768,04ff228153903110cd798ea9d0a03f7a:15723459,ed7e6641d2903110ab0c5b231b67741f:-1160651434,8abde601ed9031106691eaf29c679c7e:1808614407,a92d2a01c7903110c6c49e1be6c77c41:1998239598,2b5c2ecde9503110d0a24f202c6c128e:1010810448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 11:29:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>27738b020269445688388226329aaae4</sys_id>
+        <sys_metadata>a16b6e4d47503110ec03d437536d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getir</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_scope_delete display_value="">530de99aede947bfaa51a248d6534679</sys_scope_delete>
+        <sys_update_name>sys_script_include_a16b6e4d47503110ec03d437536d4334</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a16b6e4d47503110ec03d437536d4334">4ae443c547d03110ec03d437536d4392</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 11:29:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

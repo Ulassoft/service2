@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3df1c73647103110ec03d437536d43bb" label="lookupControl" max_length="40" name="x_1053069_uls_lookupcontrol" type="collection">
+        <element display="true" label="isim" max_length="40" name="isim" type="string"/>
+        <element attributes="encode_utf8=false" dependent="u_il_1" dependent_on_field="u_il_1" label="ilce" max_length="32" name="u_ilce_2" reference="x_1053069_uls_ilce" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="il" max_length="32" name="u_il_1" reference="x_1053069_uls_iller" type="reference"/>
+        <element attributes="encode_utf8=false" label="koy" max_length="32" name="u_koy_3" reference="x_1053069_uls_koy" reference_qual="javascript:new koygetir().getKoyler( current.u_ilce_2);" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="u_il_1"/>
+        </index>
+        <index name="index2">
+            <element name="u_ilce_2"/>
+        </index>
+        <index name="index3">
+            <element name="u_koy_3"/>
+        </index>
+    </element>
+</database>

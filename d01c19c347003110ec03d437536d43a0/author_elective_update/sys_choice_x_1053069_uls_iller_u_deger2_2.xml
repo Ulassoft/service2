@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_deger2_2" table="x_1053069_uls_iller" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_deger2_2</element>
+            <name>x_1053069_uls_iller</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:12:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_deger2_2</sys_name>
+            <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+            <sys_update_name>sys_choice_x_1053069_uls_iller_u_deger2_2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:12:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>aa</dependent_value>
+            <element>u_deger2_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>aa1</label>
+            <language>en</language>
+            <name>x_1053069_uls_iller</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f64553047503110ec03d437536d4324</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:38:03</sys_updated_on>
+            <value>aa1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>aa</dependent_value>
+            <element>u_deger2_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>aa2</label>
+            <language>en</language>
+            <name>x_1053069_uls_iller</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3764553047503110ec03d437536d4326</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:38:06</sys_updated_on>
+            <value>aa2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>bb</dependent_value>
+            <element>u_deger2_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bb1</label>
+            <language>en</language>
+            <name>x_1053069_uls_iller</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b364553047503110ec03d437536d4327</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:38:42</sys_updated_on>
+            <value>bb1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>bb</dependent_value>
+            <element>u_deger2_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bb2</label>
+            <language>en</language>
+            <name>x_1053069_uls_iller</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3364553047503110ec03d437536d4328</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:38:45</sys_updated_on>
+            <value>bb2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>cc</dependent_value>
+            <element>u_deger2_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>cc1</label>
+            <language>en</language>
+            <name>x_1053069_uls_iller</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf64553047503110ec03d437536d4328</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:38:48</sys_updated_on>
+            <value>cc1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>cc</dependent_value>
+            <element>u_deger2_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>cc2</label>
+            <language>en</language>
+            <name>x_1053069_uls_iller</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-25 08:36:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f64553047503110ec03d437536d4329</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-25 08:38:51</sys_updated_on>
+            <value>cc2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

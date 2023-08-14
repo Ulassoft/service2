@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46f8993447503110ec03d437536d4371" label="Ilce" max_length="40" name="x_1053069_uls_ilce" type="collection">
+        <element display="true" label="Isim" max_length="40" name="isim" type="string"/>
+        <element attributes="encode_utf8=false" label="il" max_length="32" name="u_il_1" reference="x_1053069_uls_iller" type="reference"/>
+        <index name="index">
+            <element name="u_il_1"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_il_1" label="il" language="en" table="x_1053069_uls_lookupcontrol">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_il_1</element>
+            <help/>
+            <hint/>
+            <label>il</label>
+            <language>en</language>
+            <name>x_1053069_uls_lookupcontrol</name>
+            <plural>ils</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-31 21:47:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>il</sys_name>
+            <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+            <sys_update_name>sys_documentation_x_1053069_uls_lookupcontrol_u_il_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-31 21:47:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

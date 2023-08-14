@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="655c154f47003110ec03d437536d4308" label="Iller" max_length="40" name="x_1053069_uls_iller" type="collection">
+        <element display="true" label="Isim" max_length="40" name="isim" type="string"/>
+        <element label="Plaka" max_length="40" name="plaka" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Deger1" max_length="40" name="u_deger1_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="aa" sequence="0" value="aa"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="bb" sequence="1" value="bb"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="cc" sequence="2" value="cc"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_deger1_1" dependent_on_field="u_deger1_1" label="Deger2" max_length="40" name="u_deger2_2" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="aa" inactive_on_update="false" label="aa1" sequence="0" value="aa1"/>
+                <element dependent_value="aa" inactive_on_update="false" label="aa2" sequence="1" value="aa2"/>
+                <element dependent_value="bb" inactive_on_update="false" label="bb1" sequence="2" value="bb1"/>
+                <element dependent_value="bb" inactive_on_update="false" label="bb2" sequence="3" value="bb2"/>
+                <element dependent_value="cc" inactive_on_update="false" label="cc1" sequence="4" value="cc1"/>
+                <element dependent_value="cc" inactive_on_update="false" label="cc2" sequence="5" value="cc2"/>
+            </choice>
+        </element>
+    </element>
+</database>

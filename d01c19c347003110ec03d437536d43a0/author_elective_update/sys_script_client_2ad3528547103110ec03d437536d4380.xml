@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_koy_1</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>iller db den dolsun</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	alert('***u1***');
+	var ga=new GlideAjax('getir');
+	alert('***u2***');
+	ga.addParam('sysparam_name','degerDon');
+	alert('***u3***');
+// 	ga.getXML(callBackFunction);
+// 	alert('***u4***');
+// 		function callBackFunction(response){
+// 			alert('***u5***');
+// 			var answer=response.responseXML.documentElement.getAttribute("answer");
+// 			alert(answer);
+// 		}
+	
+	ga.getXMLAnswer(getResponse);
+	alert('***u4***');
+	function getResponse(response){
+		alert('***u5***');
+		var answer = JSON.parse(response);
+		alert('***u6***');
+		alert(answer);
+		alert('***u7***');
+	}
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 07:56:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ad3528547103110ec03d437536d4380</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>iller db den dolsun</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_update_name>sys_script_client_2ad3528547103110ec03d437536d4380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 11:27:24</sys_updated_on>
+        <table>x_1053069_uls_adres</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ULS">d01c19c347003110ec03d437536d43a0</application>
+        <file_path/>
+        <instance_id>cdd96425dbd8651007072f17d496191c</instance_id>
+        <instance_name>dev147045</instance_name>
+        <name>sys_script_client_2ad3528547103110ec03d437536d4380</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_koy_1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;iller db den dolsun&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	alert('***u1***');
+	var ga=new GlideAjax('getir');
+	alert('***u2***');
+	ga.addParam('sysparam_name','degerDon');
+	alert('***u3***');
+// 	ga.getXML(callBackFunction);
+// 	alert('***u4***');
+// 		function callBackFunction(response){
+// 			alert('***u5***');
+// 			var answer=response.responseXML.documentElement.getAttribute("answer");
+// 			alert(answer);
+// 		}
+	
+	ga.getXMLAnswer(getResponse);
+	alert('***u4***');
+	function getResponse(response){
+		alert('***u5***');
+		var answer = JSON.parse(response);
+		alert('***u6***');
+		alert(answer);
+		alert('***u7***');
+	}
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-26 07:56:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2ad3528547103110ec03d437536d4380&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;iller db den dolsun&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ULS" source="x_1053069_uls"&gt;d01c19c347003110ec03d437536d43a0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ULS"&gt;d01c19c347003110ec03d437536d43a0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2ad3528547103110ec03d437536d4380&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-26 11:27:24&lt;/sys_updated_on&gt;&lt;table&gt;x_1053069_uls_adres&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1885637395</payload_hash>
+        <record_name>iller db den dolsun</record_name>
+        <reverted_from/>
+        <source>501c19c347003110ec03d437536d43a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 11:27:24</sys_created_on>
+        <sys_id>4425c3c547d03110ec03d437536d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18991f426cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 11:27:24</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8c25c3c5c5d03110615aae053db818b5</update_guid>
+        <update_guid_history>8c25c3c5c5d03110615aae053db818b5:-1885637395,87c44b4526d03110017abff60736c61b:-2016929784,ebd20745f4d03110fdfa2e35e26f9974:347012193,5b5432c54f903110cf04ad90c2939c96:-197296525,cf833685ee9031108ae319f150aec7de:871660767,6e43fa85169031108df82d987bb0754f:893471871,c233b2453d903110a1f304049e6c4604:-1563036527,c313be457c9031102a79be6184c49441:893471871,fa033ac1b49031109a9a1202bc77fb60:-1773833283,d55dae01ed9031108ad95b2adc61ea1e:764923896,680a2a0db9503110747c9041fc71fd42:1093933813,104e5a41bf503110837c71acbfa4f915:-1400515805,1c2ed64148503110fa3c07927a24c1a5:-1942463993,f30e5a41f0503110aec67dc26b41d70f:-1719020253,31fd5201aa503110d354f8e900dad532:2041725772,de895e0d9f103110d6b999cfc2ad4816:-1241494110,0eb8560d21103110589f259bcb1b3092:2065105609,18781ac9db1031109d9ba829caece734:-1218595323,1bb41a094d103110941f779e55b3afd3:-1727382041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-26 11:29:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6cbea5c59f9345789f720b050ccd6e84</sys_id>
+        <sys_metadata>2ad3528547103110ec03d437536d4380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>iller db den dolsun</sys_name>
+        <sys_package display_value="ULS" source="x_1053069_uls">d01c19c347003110ec03d437536d43a0</sys_package>
+        <sys_parent display_value="Adres">4c401ec147103110ec03d437536d43ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ULS">d01c19c347003110ec03d437536d43a0</sys_scope>
+        <sys_scope_delete display_value="">530de99aede947bfaa51a248d6534679</sys_scope_delete>
+        <sys_update_name>sys_script_client_2ad3528547103110ec03d437536d4380</sys_update_name>
+        <sys_update_version display_value="sys_script_client_2ad3528547103110ec03d437536d4380">4425c3c547d03110ec03d437536d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-26 11:29:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
